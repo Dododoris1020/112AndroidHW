@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tickets">
+
+    <TextView
+        android:id="@+id/genderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/ticketTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genderTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ticketTypeTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/totalAmountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantityTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
